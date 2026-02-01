@@ -13,8 +13,15 @@ locals {
 
 }
 
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0" # Force use of version 5.x
+    }
+  }
+}
+
 provider "aws" {
-
   region = local.region
-
 }
