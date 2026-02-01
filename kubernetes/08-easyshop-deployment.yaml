@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: easyshop
-          image: arupgope/easyshop-app:17
+          image: arupgope/easyshop-app:18
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
