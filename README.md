@@ -214,10 +214,14 @@ helm repo update
 helm install prometheus prometheus-community/prometheus
 
 ```
-<p align="center"> 
-  <img width="1857" height="952" alt="Running_Prometheus_Metrics" src="https://github.com/user-attachments/assets/de1e97ad-ef7d-4340-9857-e27347a81c15" />
 
-  <br/> <em>Figure 6: Prometheus dashboard showing cluster and application metrics</em> </p>
+<p align="center">
+   <img width="1857" height="952" alt="Running_Prometheus_Metrics" src="https://github.com/user-attachments/assets/de1e97ad-ef7d-4340-9857-e27347a81c15" />
+
+  <br/>
+  <em>Figure 6: Prometheus dashboard showing cluster and application metrics</em></em>
+</p>
+
 
 ## 🔹 Grafana Monitoring
 
@@ -231,29 +235,41 @@ helm repo update
 helm install grafana grafana/grafana
 
   ```
+### 📤 Grafana Outputs
 
-1️⃣ Grafana Home Dashboard
-<p align="center"> 
+<p align="center">
   <img width="1885" height="947" alt="Grafana_Dashboard_1" src="https://github.com/user-attachments/assets/77657efd-3bd3-441b-99f3-0e81b3585263" />
 
-  <br/> <em>Figure 7: Grafana home dashboard</em> </p>
-2️⃣ API Server Monitoring Dashboard
-<p align="center"> 
+
+  <br/>
+  <em>Figure 7: Grafana home dashboard</em></em>
+</p>
+
+
+<p align="center">
   <img width="1887" height="920" alt="Grafana_API_Server_Monitor" src="https://github.com/user-attachments/assets/630eefea-40eb-409e-907b-4f2e8611b7ee" />
+  <br/>
+  <em>Figure 8: Grafana dashboard monitoring Kubernetes API server metrics</em>
+</p>
 
-  <br/> <em>Figure 8: Grafana dashboard monitoring Kubernetes API server metrics</em> </p>
-3️⃣ Cluster Resources Monitoring Dashboard
-<p align="center"> 
+<p align="center">
   <img width="1892" height="931" alt="Grafana_Cluster_Rescources_Monitor" src="https://github.com/user-attachments/assets/84799c40-32ad-4983-9ada-f21b82578e0e" />
+  <br/>
+  <em>Figure 9: Grafana dashboard showing CPU, memory, and pod metrics for the cluster</em>
+</p
 
-  <br/> <em>Figure 9: Grafana dashboard showing CPU, memory, and pod metrics for the cluster</em> </p>
 
+<p align="center">
   
-4️⃣ Kubelet Monitoring Dashboard
-<p align="center"> 
-  <img width="1890" height="972" alt="Grafana_Kubelet_Monitor" src="https://github.com/user-attachments/assets/25562f3b-80d7-4cfb-8fc3-09c8ed724f09" />
-
-  <br/> <em>Figure 10: Grafana dashboard monitoring Kubelet metrics per node</em> </p>
+  <br/>
+ <em></em>
+</p>
+  
+<p align="center">
+ <img width="1890" height="972" alt="Grafana_Kubelet_Monitor" src="https://github.com/user-attachments/assets/25562f3b-80d7-4cfb-8fc3-09c8ed724f09" />
+  <br/>
+  <em>Figure 10: Grafana dashboard monitoring Kubelet metrics per node</em>
+</p>
 
   # 🎉 Final Result: Running EasyShop Application
 
